@@ -76,5 +76,3 @@ JavaScript plugin for Mass mailing
 Hotel Booking module
 MultiLanguage + lang ID in url
 
-##yii1
-TLS: Big and old project where peolpe can find jobs. There are a lot of datails, but here are only "Skill" part.
