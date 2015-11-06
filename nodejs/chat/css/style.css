@@ -1,0 +1,9 @@
+@import "reset.css";
+
+#messages-area {
+    height: 300px;
+    overflow-y: scroll;
+}
+#messages-area li{
+    list-style: none;
+}

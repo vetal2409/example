@@ -1,0 +1,92 @@
+.send-mail label{
+    font-weight: bold;
+}
+
+.send-mail table tr td input, .send-mail table tr td select {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 3px;
+    background-color: #fff;
+}
+
+.send-mail table tr td span {
+    font-size: 10px;
+}
+body.send-mail td:first-child + td {
+    text-align: left;
+}
+
+body.send-mail table tr td{
+    padding: 10px;
+}
+.send-mail div.wrap {
+    width: 780px;
+}
+.send-mail div.wrap .update-btn {
+    width: 250px;
+    height: 35px;
+    background-color: dodgerblue;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+
+.send-mail td.last-sub {
+    text-align: center;
+}
+
+.motivation label {
+    display: block;
+}
+
+
+/* --- MAILER ---*/
+
+.mailer-result {
+    display: none;
+}
+
+#mailer-wrapper td {
+    padding: 5px 0;
+}
+#cke_mail-editor {
+    margin-top: 10px;
+}
+
+.loader {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background: #000000 url("../images/loader.gif") no-repeat 53% 30%;
+    background-size: 75px 75px;
+    opacity: .5;
+    display: none;
+}
+
+.create-list-form {
+    display: none;
+}
+
+.attachment-list li{
+    list-style-type: none;
+}
+
+.attachment-list-label {
+    width: 15%;
+    float: left;
+}
+
+.attachment-list {
+    float: left;
+    padding-left: 2%;
+    width: 85%;
+}
