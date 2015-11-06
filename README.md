@@ -12,12 +12,13 @@ template for authentication user using cookie, crypt and sign
 Demo (login: example   password: example): https://www.seera.de/example/backend/index.php
 
 extension for generating  Grid Data Table
--sort
--pagination
--search
--flaxible manage columns
--fast editable
--Comfortable manipulation of data:
+
+- sort
+- pagination
+- search
+- flaxible manage columns
+- fast editable
+- Comfortable manipulation of data:
 ```php
     'SerialColumn' => array(
         'type' => 'template'
